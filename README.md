@@ -31,7 +31,7 @@
     git clone https://github.com/Soffffan/Practice3_4.git
 ```
 
-3. **Перейдите в папку проекта:**
+2. **Перейдите в папку проекта:**
 
 ```bash    
     cd Practice3_4
