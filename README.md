@@ -28,14 +28,12 @@
     Откройте терминал и выполните следующую команду:
     
     git clone https://github.com/Soffffan/Practice3_4.git
-bash
-   
+
 
 3. **Перейдите в папку проекта:**
 
     
     cd Practice3_4
-bash
    
 
 3. **Установите зависимости для серверов:**
@@ -44,7 +42,7 @@ bash
 
     Для клиента:
     
-bash
+
     cd client
     npm install
     cd ..
@@ -52,7 +50,7 @@ bash
 
     Для админской панели:
     
-bash
+
     cd admin
     npm install
     cd ..
@@ -64,7 +62,7 @@ bash
     cd websocket
     npm install
     cd ..
-   
+bash   
 
 4. **Запустите сервер WebSocket:**
 
