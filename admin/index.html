@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Админка</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Панель админа</h1>
+    <h2>Добавить товар</h2>
+    <input id="name" placeholder="Название">
+    <input id="price" type="number" placeholder="Цена">
+    <input id="description" placeholder="Описание">
+    <input id="categories" placeholder="Категории (через запятую)">
+    <button onclick="addProduct()">Добавить</button>
+
+    <h2>Редактировать товар</h2>
+    <input id="edit-id" placeholder="ID товара">
+    <input id="edit-name" placeholder="Название">
+    <input id="edit-price" type="number" placeholder="Цена">
+    <input id="edit-description" placeholder="Описание">
+    <input id="edit-categories" placeholder="Категории (через запятую)">
+    <button onclick="editProduct()">Сохранить изменения</button>
+
+    <h2>Список товаров</h2>
+    <div id="admin-products"></div>
+
+
+
+    <h2>Чат с клиентами</h2>
+    <div id="chat-box"></div>
+    <input id="chat-input" type="text" placeholder="Введите сообщение..." />
+    <button onclick="sendMessage()">Отправить</button>
+
+</body>
+</html>

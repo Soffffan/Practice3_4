@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="graphql.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Магазин</h1>
+    <h2>Выберите, что отображать:</h2>
+    <label><input type="checkbox" value="name" checked> Название</label>
+    <label><input type="checkbox" value="price" checked> Цена</label>
+    <label><input type="checkbox" value="description" checked> Описание</label>
+    <label><input type="checkbox" value="categories" checked> Категории</label>
+    <button onclick="loadProducts()">Обновить</button>
+
+    <h2>Список товаров</h2>
+    <div id="product-container"></div>
+
+
+    <h2>Чат с поддержкой</h2>
+    <div id="chat-box"></div>
+    <input id="chat-input" type="text" placeholder="Введите сообщение..." />
+    <button onclick="sendMessage()">Отправить</button>
+
+</body>
+</html>
