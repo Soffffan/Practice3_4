@@ -58,17 +58,16 @@
 
     Для WebSocket-сервера:
     
-bash
+
     cd websocket
     npm install
-    cd ..
-bash   
+    cd .. 
 
 4. **Запустите сервер WebSocket:**
 
     Для работы WebSocket-сервера (чата) нужно запустить сервер, который будет слушать на порту 4000:
     
-bash
+
     cd websocket
     node server.js
    
@@ -77,14 +76,15 @@ bash
 
     Для клиента (пользователя магазина):
     
-bash
+
     cd client
     node server.js
-6. **Запустите сервер админа:**
+
+   
+7. **Запустите сервер админа:**
 
     Для админской панели:
     
-bash
     cd admin
     node server.js
    
