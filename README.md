@@ -56,12 +56,13 @@
     cd ..
 ```
 
-    Для WebSocket-сервера:
+#### Для WebSocket-сервера:
     
-
+```bash
     cd websocket
     npm install
-    cd .. 
+    cd ..
+```
 
 4. **Запустите сервер WebSocket:**
 
