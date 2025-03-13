@@ -50,11 +50,11 @@
 
     Для админской панели:
     
-
+```bash
     cd admin
     npm install
     cd ..
-   
+```
 
     Для WebSocket-сервера:
     
